@@ -37,14 +37,17 @@ Safe Network - simple front GUI for the CLI
   Required is cargo which you can get from https://doc.rust-lang.org/cargo/getting-started/installation.html
 
   On Linux then build is simply
+
 	$ cargo build --release
 	$ cargo doc --no-deps
 
   What is avaliable then is the result of both
+	
 	cargo build --target=x86_64-unknown-linux-gnu --release
 	cargo build --target=x86_64-pc-windows-gnu --release
 
   but you might want to also try your own platform as
+
 	cargo build --target=aarch64-unknown-linux-gnu --release
 	cargo build --target=x86_64-apple-darwin --release
 	cargo build --target=x86_64-pc-windows-msvc --release 
@@ -52,6 +55,7 @@ Safe Network - simple front GUI for the CLI
   which gave error from Linux here as "failed to run custom build command for fltk-sys"
 
   and then 32bit perhaps requires the architecture for building that
+
 	cargo build --target=i686-pc-windows-gnu
 	cargo build --target=i686-pc-windows-msvc
 	cargo build --target=i686-unknown-linux-gnu
