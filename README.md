@@ -10,7 +10,7 @@ Safe Network - simple front GUI for the CLI
 	$ hammer ko
 
 #### Options:
-    -h, --help          display this help and exit
+    -h, --help          display help and exit
     -V, --version       output version information and exit
 
 ## Description
