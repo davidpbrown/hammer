@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="NAME"><meta name="keywords" content="rust, rustlang, rust-lang, hammer"><title>hammer - Rust</title><link rel="stylesheet" type="text/css" href="../normalize.css"><link rel="stylesheet" type="text/css" href="../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../light.css"  id="themeStyle"><link rel="stylesheet" type="text/css" href="../dark.css" disabled ><link rel="stylesheet" type="text/css" href="../ayu.css" disabled ><script id="default-settings"></script><script src="../storage.js"></script><script src="../crates.js"></script><noscript><link rel="stylesheet" href="../noscript.css"></noscript><link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="alternate icon" type="image/png" href="../favicon-16x16.png">
+<link rel="alternate icon" type="image/png" href="../favicon-32x32.png"><style type="text/css">#crate-search{background-image:url("../down-arrow.svg");}</style></head><body class="rustdoc mod crate"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="sidebar-menu" role="button">&#9776;</div><a href='../hammer/index.html'><div class='logo-container rust-logo'><img src='../rust-logo.png' alt='logo'></div></a><h2 class="location">Crate hammer</h2><div class="block version"><p>Version 0.0.2</p></div><div class="sidebar-elems"><a id="all-types" href="all.html"><p>See all hammer's items</p></a><div class="block items"><ul><li><a href="#modules">Modules</a></li><li><a href="#functions">Functions</a></li></ul></div><div id="sidebar-vars" data-name="hammer" data-ty="mod" data-relpath=""></div><script defer src="sidebar-items.js"></script></div></nav><div class="theme-picker"><button id="theme-picker" aria-label="Pick another theme!" aria-haspopup="menu" title="themes"><img src="../brush.svg" width="18" height="18" alt="Pick another theme!"></button><div id="theme-choices" role="menu"></div></div><nav class="sub"><form class="search-form"><div class="search-container"><div><select id="crate-search"><option value="All crates">All crates</option></select><input class="search-input" name="search" disabled autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"></div><button type="button" id="help-button" title="help">?</button><a id="settings-menu" href="../settings.html" title="settings"><img src="../wheel.svg" width="18" height="18" alt="Change settings"></a></div></form></nav><section id="main" class="content"><h1 class="fqn"><span class="in-band">Crate <a class="mod" href="#">hammer</a><button id="copy-path" onclick="copy_path(this)" title="copy path"><img src="../clipboard.svg" width="19" height="18" alt="Copy item import" title="Copy item import to clipboard"></button></span><span class="out-of-band"><span id="render-detail"><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">&#x2212;</span>]</a></span><a class="srclink" href="../src/hammer/main.rs.html#1-252" title="goto source code">[src]</a></span></h1><details class="rustdoc-toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><h2 id="name" class="section-header"><a href="#name">NAME</a></h2>
+<p>Safe Network - hammer
+Version: 0.0.2</p>
+<h2 id="summary" class="section-header"><a href="#summary">SUMMARY</a></h2>
+<p>A simple front end to the Safe Network.</p>
+<h2 id="basic-usage" class="section-header"><a href="#basic-usage">Basic Usage</a></h2>
+<div class="example-wrap"><pre class="rust rust-example-rendered">
+$ <span class="ident">hammer</span></pre></div>
+<h3 id="optional-language-code-iso639-1-defaults-to-en" class="section-header"><a href="#optional-language-code-iso639-1-defaults-to-en">Optional: language code ISO639-1, defaults to en.</a></h3>
+<div class="example-wrap"><pre class="rust rust-example-rendered">
+$ <span class="ident">hammer</span> <span class="ident">el</span>
+$ <span class="ident">hammer</span> <span class="ident">en</span>
+$ <span class="ident">hammer</span> <span class="ident">ko</span></pre></div>
+<h4 id="options" class="section-header"><a href="#options">Options:</a></h4>
+<div class="example-wrap"><pre class="rust rust-example-rendered">
+<span class="op">-</span><span class="ident">h</span>, <span class="op">-</span><span class="op">-</span><span class="ident">help</span>          <span class="ident">display</span> <span class="ident">this</span> <span class="ident">help</span> <span class="ident">and</span> <span class="ident">exit</span>
+<span class="op">-</span><span class="ident">V</span>, <span class="op">-</span><span class="op">-</span><span class="ident">version</span>       <span class="ident">output</span> <span class="ident">version</span> <span class="ident">information</span> <span class="ident">and</span> <span class="ident">exit</span></pre></div>
+<h2 id="description" class="section-header"><a href="#description">DESCRIPTION</a></h2>
+<p>This is a simple front end GUI for the Safe Network and makes calls to the Safe Network Command Line Interface (CLI).</p>
+<p>For more about the Safe Network see:</p>
+<p><a href="https://safenetwork.tech/">https://safenetwork.tech/</a></p>
+<p><a href="https://safenetforum.org/">https://safenetforum.org/</a></p>
+<p><a href="https://github.com/maidsafe/">https://github.com/maidsafe/</a></p>
+<h2 id="author" class="section-header"><a href="#author">AUTHOR</a></h2>
+<p>David P Brown</p>
+<h2 id="reporting-bugs" class="section-header"><a href="#reporting-bugs">REPORTING BUGS</a></h2>
+<p>Report bugs to <a href="mailto://bugs@davidpbrown.co.uk">mailto://bugs@davidpbrown.co.uk</a></p>
+<h2 id="copyright" class="section-header"><a href="#copyright">COPYRIGHT</a></h2>
+<p>Copyleft!</p>
+<h2 id="known-issues" class="section-header"><a href="#known-issues">Known issues:</a></h2>
+<p>Errors from the network come with colour via color_eyre and then when put to a log file, those create clutter with escape sequences.</p>
+<p>Should promptly exit, if not on Linux|Windows|MacOS|Bsd as the bash and exec options for alts not certain.</p>
+<h2 id="expected-behaviour" class="section-header"><a href="#expected-behaviour">Expected behaviour:</a></h2>
+<p>User input is cleaned with Rust’s ammonia::clean_text but otherwise the request is put to the CLI as the user asks it.</p>
+<p>The actions requested will continue in background Safe CLI processes, even when the GUI and terminal have been closed. Downloads and log files, will then continue to receive the outputs of requests from the network via those safe processes.</p>
+</div></details><h2 id="modules" class="section-header"><a href="#modules">Modules</a></h2>
+<table><tr class="module-item"><td><a class="mod" href="check_dir_exists/index.html" title="hammer::check_dir_exists mod">check_dir_exists</a></td><td class="docblock-short"><p>Create directory and any parents</p>
+</td></tr><tr class="module-item"><td><a class="mod" href="cli_args/index.html" title="hammer::cli_args mod">cli_args</a></td><td class="docblock-short"><p>Module cli_args handles options and returns other arguments.</p>
+</td></tr><tr class="module-item"><td><a class="mod" href="galleries/index.html" title="hammer::galleries mod">galleries</a></td><td class="docblock-short"><p>Safe GUI content</p>
+</td></tr><tr class="module-item"><td><a class="mod" href="img_dragon/index.html" title="hammer::img_dragon mod">img_dragon</a></td><td class="docblock-short"><p>Image of dragon as bytes</p>
+</td></tr><tr class="module-item"><td><a class="mod" href="img_safe_logo/index.html" title="hammer::img_safe_logo mod">img_safe_logo</a></td><td class="docblock-short"><p>Image of the safe logo as bytes</p>
+</td></tr><tr class="module-item"><td><a class="mod" href="img_venn_psf/index.html" title="hammer::img_venn_psf mod">img_venn_psf</a></td><td class="docblock-short"><p>Image of Venn diagram [Privacy; Security; Freedom] as bytes</p>
+</td></tr><tr class="module-item"><td><a class="mod" href="iso8601/index.html" title="hammer::iso8601 mod">iso8601</a></td><td class="docblock-short"><p>Format timestamps as iso8601</p>
+</td></tr><tr class="module-item"><td><a class="mod" href="user_settings/index.html" title="hammer::user_settings mod">user_settings</a></td><td class="docblock-short"></td></tr></table><h2 id="functions" class="section-header"><a href="#functions">Functions</a></h2>
+<table><tr class="module-item"><td><a class="fn" href="fn.main.html" title="hammer::main fn">main</a></td><td class="docblock-short"><p>Safe GUI</p>
+</td></tr></table></section><section id="search" class="content hidden"></section><div id="rustdoc-vars" data-root-path="../" data-current-crate="hammer" data-search-index-js="../search-index.js" data-search-js="../search.js"></div><script src="../main.js"></script></body></html>
