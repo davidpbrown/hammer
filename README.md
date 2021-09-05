@@ -1,6 +1,12 @@
 # hammer
 Safe Network - simple front GUI for the CLI
 
+## Install
+
+  Download and unzip the latest release.
+  Make your prefered binary execuable.
+  There is one for Windows named "hammer.exe" and another for Linux named "hammer".
+
 ## Basic Usage
 	$ hammer
 
