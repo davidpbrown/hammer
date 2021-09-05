@@ -1,0 +1,23 @@
+[package]
+name = "safe-network-hammer"
+version = "0.0.2"
+authors = ["davidpbrown"]
+
+[[bin]]
+name = "hammer"
+path = "src/main.rs"
+
+[dependencies]
+getopts = "*"
+fltk = "*"
+whoami = "*"
+execute = "*"
+grep-regex = "*"
+grep-searcher = "*"
+grep-matcher = "*"
+grep-printer = "*"
+sedregex = "*"
+image = "*"
+base64 = "*"
+chrono = "*"
+ammonia = "*"
