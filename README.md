@@ -3,13 +3,14 @@ Safe Network - simple front GUI for the CLI
 
 ## Install
 
-  Download your prefered binary execuable.
-  There is one for Windows named "hammer.exe" and another for Linux named "hammer".
+  Download your prefered binary and make it executable.
+  There is one for Windows named "hammer.exe" and another for Linux named "hammer", which at a stretch might just work on MacOS.
+  See Build options below for other operation systems.
 
 ## Basic Usage
 	$ hammer
 
-### Optional: language code ISO639-1, defaults to en.
+### Optional: language code iso639-1, defaults to en.
 	$ hammer el
 	$ hammer en
 	$ hammer ko
@@ -34,7 +35,8 @@ Safe Network - simple front GUI for the CLI
   The src is the full code - with translations, where the root is truely a template that spawns that.
   What is visible then is the src needed to create the binaries.
 
-  You need the folder ./src/ and the Cargo.toml and from the folder containing those run cargo.
+  You need the folder ./src/ and the Cargo.toml and from the folder containing those, run cargo.
+
   Required is cargo, which you can get from https://doc.rust-lang.org/cargo/getting-started/installation.html
 
   On Linux then build is simply
@@ -60,4 +62,6 @@ Safe Network - simple front GUI for the CLI
 	cargo build --target=i686-pc-windows-gnu
 	cargo build --target=i686-pc-windows-msvc
 	cargo build --target=i686-unknown-linux-gnu
+
+  Let me know via the forum what you get working and how https://safenetforum.org/u/davidpbrown 
 
