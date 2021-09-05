@@ -34,7 +34,8 @@ Safe Network - simple front GUI for the CLI
   The src is the full code - with translations, where the root is truely a template that spawns that.
   What is visible then is the src needed to create the binaries.
 
-  Required is cargo which you can get from https://doc.rust-lang.org/cargo/getting-started/installation.html
+  You need the folder ./src/ and the Cargo.toml and from the folder containing those run cargo.
+  Required is cargo, which you can get from https://doc.rust-lang.org/cargo/getting-started/installation.html
 
   On Linux then build is simply
 
