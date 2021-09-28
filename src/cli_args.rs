@@ -24,7 +24,7 @@ use std::env;
 use std::process;
 
 static PROGRAM: &'static str = "SAFE Network - hammer";
-static VERSION: &'static str = "0.0.2";
+static VERSION: &'static str = "0.0.3";
 
 /// Returns a Vec\<String\> of arguements that were not options.
 ///
@@ -35,7 +35,7 @@ pub fn get_args() -> Vec<String> {
     let args: Vec<String> = env::args().collect();
 
     let mut opts = Options::new();
-    opts.optflag("h", "help", "display this help and exit");
+    opts.optflag("h", "help", "display help and exit");
     opts.optflag("V", "version", "output version information and exit");
 
     let matches = match opts.parse(&args[1..]) {
