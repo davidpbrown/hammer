@@ -24,7 +24,7 @@ use std::env;
 use std::process;
 
 static PROGRAM: &'static str = "SAFE Network - hammer";
-static VERSION: &'static str = "0.0.3";
+static VERSION: &'static str = "0.0.4";
 
 /// Returns a Vec\<String\> of arguements that were not options.
 ///
